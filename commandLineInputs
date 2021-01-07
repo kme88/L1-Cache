@@ -1,0 +1,10 @@
+./cache 512 direct fifo 16 test.txt
+./cache 512 direct lru 16 test.txt
+./cache 512 assoc:4 fifo 8 test.txt
+./cache 512 assoc:8 fifo 4 test.txt
+./cache 1024 assoc:2 lru 4 test.txt
+./cache 256 assoc lru 4 test.txt
+./cache 512 assoc lru 8 test.txt
+./cache 1024 direct lru 4 test.txt
+./cache 2048 assoc:8 fifo 4 test.txt
+./cache 512 assoc fifo 16 test.txt
